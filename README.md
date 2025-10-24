@@ -43,6 +43,21 @@ npm start
 - Data is automatically saved to your local file system
 - Location: Application data directory (varies by OS)
 - Format: JSON
+- Sample data file (`sample-data.json`) is included to demonstrate the data format
+
+## Data Format
+
+The application uses JSON format for storing transactions. Each transaction has:
+```json
+{
+  "id": "unique-id",
+  "date": "YYYY-MM-DD",
+  "type": "income" or "expense",
+  "category": "Category name",
+  "amount": number,
+  "description": "Optional description"
+}
+```
 
 ## Technologies Used
 
