@@ -1,0 +1,16 @@
+{
+  "name": "electron-study",
+  "version": "1.0.0",
+  "description": "데스크톱 앱 공부용",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.4.0"
+  }
+}
