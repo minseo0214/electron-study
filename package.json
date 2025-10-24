@@ -1,0 +1,16 @@
+{
+  "name": "electron-study",
+  "version": "1.0.0",
+  "description": "데스크톱 앱 공부용 - Household Account Book",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["electron", "household", "account", "book"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.4.0"
+  }
+}
