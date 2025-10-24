@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Electron build output
+dist/
+build/
+out/
+
+# Local data files
+data.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
